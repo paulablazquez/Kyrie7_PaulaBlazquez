@@ -1,0 +1,33 @@
+.hero-banner {
+    position: relative;
+
+    img {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        width: 65%;
+        margin-left: 250px;
+    }
+}
+
+.logo-kyrie {
+    position: absolute;
+    z-index: 1;
+    top: 620px;
+    left: var(--margenes-laterales);
+
+    img {
+        width: 70px;
+    }
+}
+
+.rrss-kyrie7 {
+    position: absolute;
+    z-index: 1;
+    right: var(--margenes-laterales);
+    top: 620px;
+
+    img {
+        width: 27px;
+        margin-bottom: 5px;
+    }
+}
