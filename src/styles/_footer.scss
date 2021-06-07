@@ -1,12 +1,13 @@
 .footer {
     display: block;
     border-top: 1px solid black;
-
     padding-bottom: 30px;
-  
+    max-width: 100%;
+
     .nav-footer {
         padding-top: 30px;
-        margin-left: 300px;
+        padding-left: 28%;
+        border: 1px solid hotpink;
         
         a {
             text-decoration: none;
@@ -16,6 +17,7 @@
             margin-right: 80px;
             font-weight: 400;
             font-size: 14px;
+            border: 1px solid hotpink;
             }
 
         a:hover{
