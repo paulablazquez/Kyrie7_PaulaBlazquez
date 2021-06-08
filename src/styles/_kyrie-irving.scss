@@ -1,9 +1,89 @@
 .titulo-pagina-kyrie {
-    border: 1px solid hotpink;
-    padding-top: 30px;
+   padding-top: 30px;
   
     img {
       width: 18%;
       margin-left: 50px;
     }
   }
+
+
+.info-kyrie {
+  width: 100%;
+  height: 500px;
+  display: flex;
+
+  .foto-kyrie {
+    margin-left: 30%;
+
+    img {
+      width: 380px;
+    }
+  }
+
+  .info {
+    margin-right: 60%;
+    margin-top: 50px;
+    list-style: none;
+
+    .info1{
+      font-weight: 400;
+      font-size: 20px;
+    }
+
+    .info2 {
+      font-weight: 600;
+      font-size: 20px;
+      padding-bottom: 20px;
+      line-height: 1;
+    }
+  }
+}
+
+.palmares {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 40px;
+
+  .titulo-kyrieirving {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .listas-palmares {
+    display: flex;
+    justify-content: center;
+  }
+
+  .palmares-lista {
+    list-style: none;
+    
+    li {
+      line-height: 2;
+    }
+    
+  }
+}
+
+
+.trayectoria {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 30px;
+  
+  .titulo-kyrieirving {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .camisetas-trayectoria {
+    margin-top: 5px;
+    
+    img {
+    width: 40%;
+    }
+  }
+}

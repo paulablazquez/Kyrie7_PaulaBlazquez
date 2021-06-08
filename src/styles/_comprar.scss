@@ -19,7 +19,7 @@
 
     .boton-container {
         position: absolute;
-        z-index: -1;
+        z-index: 0;
         top:700px;
         left: 650px;
             
@@ -30,6 +30,10 @@
                 padding: 5px 20px 5px 20px;
                 font-weight: 600;
                 font-size: 18px;
+            }
+
+            a:hover {
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
             }
     }
 }

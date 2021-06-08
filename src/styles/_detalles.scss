@@ -1,22 +1,120 @@
 .bloque-derecha {
-    width: 100%;
-    height: 400px;
-    padding-top: 50px;
-    border: 1px solid hotpink;
-}
-
-.fondo-verde-derecha {
-    width: 95%;
-    height: 300px;
-    position: absolute;
-    background-color: #8CB2A3;
-}
-
-.texto-derecha {
-    width: ;
-    height: 300px;
+    width: 97%;
+    margin-left: auto;
+    height: 430px;
+    margin-top: 70px;
     position: relative;
-    z-index: 2;
-    top:70px;
-    background: rgba(242, 242, 242, 0.9);
+    display: flex;
+    margin-bottom: 150px;
+
+    .pastillas-fondo-derecha {
+        background-image: url(../images/pastillas-fondo-derecha.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        display: flex;
+    }
+
+    .texto-derecha {
+        width: 500px;
+        text-align: center;
+        margin-top: 125px;
+        margin-left: 50%;
+
+        .titulo-derecha {
+            margin-bottom: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 30px;
+            font-weight: 600;
+            width: 400px;
+            line-height: 1.1;
+        }
+
+        .descripcion-derecha {
+            width: 450px;
+            line-height: 1.3;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .fotos-derecha {
+        width: 500px;
+        display: flex;
+        position: absolute;
+        z-index: 1;
+        margin-top: -30px;
+
+        img {
+            width: 400px;
+            margin-left: 100px;
+        }
+    }
+}
+
+
+.bloque-izquierda {
+    width: 97%;
+    margin-right: auto;
+    height: 430px;
+    margin-top: 70px;
+    position: relative;
+    display: flex;
+    margin-bottom: 150px;
+
+    .pastillas-fondo-izquierda {
+        background-image: url(../images/pastillas-fondo-izquierda.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        display: flex;
+    }
+
+    .texto-izquierda {
+        width: 500px;
+        text-align: center;
+        margin-top: 125px;
+        margin-left: 200px;
+
+        .titulo-izquierda {
+            margin-bottom: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 30px;
+            font-weight: 600;
+            width: 400px;
+            line-height: 1.1;
+        }
+
+        .descripcion-izquierda {
+            width: 400px;
+            line-height: 1.3;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .fotos-izquierda {
+        width: 450px;
+        display: flex;
+        position: absolute;
+        z-index: 1;
+        right: 40px;
+        margin-top: -40px;
+
+        img {
+            width: 400px;
+        }
+    }
 }
