@@ -8,3 +8,12 @@
         margin-right: 200px;
     }
 }
+
+@media (max-width: 600px) {
+    .your-class {
+        margin-top: 20px;
+        img {
+            width: 600px;
+        }
+    }
+}

@@ -30,3 +30,13 @@
     top: 10px;
     margin-right:325px;
 }
+
+@media (max-width: 600px) {
+    .slick-prev {
+        margin-left:20px;
+    }
+    
+    .slick-next {
+        margin-right:50px;
+    } 
+}

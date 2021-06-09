@@ -7,7 +7,6 @@
     .nav-footer {
         padding-top: 30px;
         padding-left: 28%;
-        border: 1px solid hotpink;
         
         a {
             text-decoration: none;
@@ -17,7 +16,6 @@
             margin-right: 80px;
             font-weight: 400;
             font-size: 14px;
-            border: 1px solid hotpink;
             }
 
         a:hover{
@@ -53,3 +51,65 @@
     }
 }
 
+@media (max-width: 600px) {
+    .footer {
+        display: block;
+        border-top: 1px solid black;
+        padding-bottom: 30px;
+        max-width: 100%;
+    
+        .nav-footer {
+            padding-top: 30px;
+            width: 100%;
+            border: 1px solid hotpink;
+            
+            a {
+                text-decoration: none;
+                color: black;
+                text-align: none;
+                justify-content: center;
+                margin-right: 70px;
+                font-weight: 400;
+                font-size: 14px;
+                border: 1px solid hotpink;
+                }
+    
+            a:hover{
+                font-weight: 600;
+            }
+        }  
+        
+        .rrss-copyright {
+            padding-top: 30px;
+            padding-right: 28%;
+            margin-right: 200px;
+            margin-top: 10px;
+            display: block;
+            width: 555px;
+            margin-left: 0;
+        
+            .rrss {
+               margin-right: 80px;
+               margin-left: 200px;
+    
+                img {
+                   
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 23px;
+                }
+            }
+    
+            .copyright {
+                color: black;
+                font-weight: 400;
+                font-size: 13px;
+                text-decoration: none;
+                margin-top: 40px;
+                width: 555px;
+                justify-content: center;
+
+            }
+        }
+    }
+}

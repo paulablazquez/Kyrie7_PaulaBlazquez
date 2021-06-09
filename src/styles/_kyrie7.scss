@@ -31,3 +31,24 @@
         margin-bottom: 5px;
     }
 }
+
+@media (max-width: 600px) {
+    .hero-banner {
+        position: relative;
+    
+        img {
+            padding-top: 60px;
+            padding-bottom: 60px;
+            width: 65%;
+            margin-left: 250px;
+        }
+    }
+    
+    .logo-kyrie {
+        display: none;
+    }
+    
+    .rrss-kyrie7 {
+        display: none;
+    }
+}
