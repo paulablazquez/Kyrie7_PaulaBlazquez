@@ -9,6 +9,10 @@
     }
 }
 
+.hero-banner-mobile {
+    display: none;
+}
+
 .logo-kyrie {
     position: absolute;
     z-index: 1;
@@ -34,13 +38,18 @@
 
 @media (max-width: 600px) {
     .hero-banner {
+        display: none;
+    }
+
+    .hero-banner-mobile {
         position: relative;
-    
+        display: flex;
+
         img {
-            padding-top: 60px;
+            padding-top: 0px;
             padding-bottom: 60px;
-            width: 65%;
-            margin-left: 250px;
+            width: 100%;
+            margin-left: 0px; 
         }
     }
     

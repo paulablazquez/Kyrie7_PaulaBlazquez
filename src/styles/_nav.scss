@@ -33,6 +33,16 @@
             height: 26px;
         }
     }   
+
+
+    .menu-hambur {
+        display: none;
+    }
+
+
+    .logo-kyrie-nav {
+        display: none;
+    }
 }
 
 
@@ -43,40 +53,38 @@
         height: 100px;
         
       .nav {
-            padding-top: 40px;
-            margin-left: 30px;
             display: none;
-    
-            a {
-                text-decoration: none;
-                color: black;
-                text-align: center;
-                justify-content: right;
-                margin-right: 70px;
-                font-weight: 400;
-                font-size: 16px;
-            }
-    
-            a:hover{
-                font-weight: 600;
-            }
         }
     
-    
         .logonike {
+            display:none;
+        }  
+        
+        .menu-hambur {
+            display: flex;
             padding-left: 70px;
             padding-top: 40px;
-            margin-right: 430px;
+            margin-right: 300px;
     
             img {
                 display: flex;
-                width: 73px;
-                height: 26px;
+                width: 60px;
+                height: 30px;
             }
-        }   
-    }
-}
+        }
 
-@media (max-width: 320px) {
-    
+        .logo-kyrie-nav {
+            display: flex;
+            padding-left: 40px;
+            padding-top: 20px;
+            position: absolute;
+            z-index: 1;
+
+            img {
+                display: flex;
+                width: 50px;
+                height: 70px;
+            }
+        }
+    }
 }
